@@ -16,5 +16,8 @@ This repository consists of
 	* WikiExtractor - Extracts a 'frequency list' of words from an input directory of exploded Wikimedia database dump file
 	* WordGenerator - Class to render all combinations of training images from 'selected list'. It applies 'rotation', 'font variations' and 'salt pepper noise' for every word and renders png images. It also maintains a mapping of 'training images' and 'classes'
 	
+## Caffe Android library module
+Available at - <https://github.com/awanishraj/caffe_android_lib>
+	
 ## Contact
 Contact developer at awanishraj.iitm@gmail.com
