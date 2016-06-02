@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <FrameLayout
+        android:id="@+id/camera_preview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+    <!--<SurfaceView-->
+    <!--android:layout_alignParentTop="true"-->
+    <!--android:id="@+id/CameraView"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent" />-->
+
+    <SurfaceView
+        android:id="@+id/TransparentView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/btGallery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:gravity="center"
+        android:padding="12dp"
+        android:shadowColor="#000000"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="2"
+        android:text="GALLERY"
+        android:textColor="#FFFFFF" />
+
+    <ImageView
+        android:id="@+id/ivFlash"
+        android:layout_width="?actionBarSize"
+        android:layout_height="?actionBarSize"
+        android:layout_gravity="right"
+        android:scaleType="center"
+        android:src="@drawable/ic_flash_unavailable" />
+    <!--<ImageView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:background="#AA000000"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:id="@+id/iv_splash"-->
+    <!--android:layout_centerInParent="true"-->
+    <!--android:src="@drawable/ic_high" />-->
+</FrameLayout>

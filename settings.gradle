@@ -1,0 +1,2 @@
+include ':caffelib', ':app', ':fontrender'
+project(':caffelib').projectDir = new File('../caffe-android-demo/caffelib')

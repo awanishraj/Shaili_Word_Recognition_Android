@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Shaili</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="intro_message">Welcome to Shaili</string>
+</resources>
